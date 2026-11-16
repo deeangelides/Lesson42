@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Lesson 42 — The Shark’s Fin: The Unclimbable Wall</title>
+<link rel="stylesheet" href="colors_and_type.css">
+<link rel="stylesheet" href="lesson5.css">
+<link rel="stylesheet" href="lesson6.css">
+<link rel="stylesheet" href="lesson9.css">
+<link rel="stylesheet" href="lesson25.css">
+<link rel="stylesheet" href="lesson26.css">
+<link rel="stylesheet" href="lesson30.css">
+<link rel="stylesheet" href="lesson32.css">
+<link rel="stylesheet" href="lesson33.css">
+<link rel="stylesheet" href="lesson34.css">
+<link rel="stylesheet" href="lesson35.css">
+<link rel="stylesheet" href="lesson36.css">
+<link rel="stylesheet" href="lesson37.css">
+<link rel="stylesheet" href="lesson37b.css">
+<link rel="stylesheet" href="lesson38.css">
+<link rel="stylesheet" href="lesson39.css">
+<link rel="stylesheet" href="lesson40.css">
+<link rel="stylesheet" href="lesson41.css">
+<link rel="stylesheet" href="lesson42.css">
+<script src="https://unpkg.com/d3@7.9.0/dist/d3.min.js" integrity="sha384-CjloA8y00+1SDAUkjs099PVfnY2KmDC2BZnws9kh8D/lX1s46w6EPhpXdqMfjK6i" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/topojson-client@3.1.0/dist/topojson-client.min.js" integrity="sha384-Ukv1p/xTma6P4/2bY5KzWBw+ydSpXmhCMtyciIQVDJ1RmOxtCYNMF1uXT9T63H67" crossorigin="anonymous"></script>
+<style>html,body{margin:0;background:#22406E;}deck-stage:not(:defined){visibility:hidden;}a{color:#2D78A8;}a:hover{color:#0C5A48;}</style>
+</head>
+<body>
+<template id="__bundler_thumbnail"><svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><rect width="512" height="512" fill="#22406E"></rect><path d="M0 512V380L130 200L220 330L310 150L512 420V512Z" fill="#fff" stroke="#0C5A48" stroke-width="14"></path><circle cx="256" cy="150" r="96" fill="#FFD86B" stroke="#0C5A48" stroke-width="14"></circle><text x="256" y="180" font-family="Arial" font-size="84" font-weight="bold" text-anchor="middle" fill="#0C5A48">42</text></svg></template>
+<deck-stage width="1920" height="1080">
+
+<section data-label="Title">
+<div class="slide ss-mint" data-screen-label="Title">
+<div class="bits" data-bits="16" data-left="1"></div>
+<div class="pad" style="padding:60px 88px 110px;flex-direction:row;gap:70px;align-items:center;z-index:2;">
+<div style="flex:1;">
+<span class="eyebrow">🏔️ Fact Files · Lesson 42</span>
+<h1 class="ss-title" style="margin-top:30px;font-size:112px;"><span class="c1">The Shark’s</span><br><span class="c3">Fin!</span></h1>
+<p class="lead" style="margin-top:30px;max-width:960px;font-weight:700;font-size:32px;">Hello, detective! 🐾 Today we climb the <strong>“unclimbable” wall</strong> with three brave friends — then we hunt for <strong>phrasal verbs</strong> and the little words <strong>a, an &amp; the</strong>! 🧗</p>
+</div>
+<div style="flex:none;width:780px;"><div class="kh-frame" style="transform:rotate(2deg);--h:540px;"><img src="meru/meru-peak.jpg" alt="Mount Meru — a giant snowy peak of rock and ice rising above a rocky valley"></div><span class="photo-cap">🏔️ Mount Meru, India</span></div>
+</div>
+</div>
+</section>
+
+<section data-label="Check-in">
+<div class="slide ss-lemon" data-screen-label="Check-in">
+<div class="bits" data-bits="12"></div>
+<div class="pad" style="padding:56px 88px 90px;flex-direction:row;gap:56px;align-items:center;z-index:2;">
+<div style="flex:1;">
+<span class="eyebrow">👋 Section 1 · Let’s Check In First</span>
+<div class="ws-plate" style="margin-top:22px;"><h2>How’s it going, detective?</h2></div>
+<ul class="itemlist" style="margin-top:30px;max-width:1080px;">
+<li class="item"><span class="iconcircle" style="background:var(--sp-aqua);">😊</span><span class="body">How are you <strong>feeling</strong> today?</span></li>
+<li class="item"><span class="iconcircle" style="background:var(--sp-gold);">⭐</span><span class="body">What was the <strong>highlight</strong> of your weekend?</span></li>
+<li class="item"><span class="iconcircle" style="background:var(--sp-coral);">🎯</span><span class="body">What is one <strong>goal</strong> you have for the week ahead?</span></li>
+</ul>
+</div>
+<div style="flex:none;width:560px;">
+<div class="ss-bubble">Just chat it through together — jot a note if you’d like! 📝</div>
+<img class="motif pd-anim-bob" src="stickers/faces/smile.png" alt="Smiling cat sticker" style="width:400px;display:block;margin:34px auto 0;">
+</div>
+</div>
+</div>
+</section>
+
+<section data-label="Read to Learn">
+<div class="slide ss-mint ws-dark" data-screen-label="Read divider">
+<img class="ws-bg" src="meru/meru-sunrise.jpg" alt="Snowy Himalayan peaks glowing orange in the first light of sunrise">
+<div class="ws-veil"></div>
+<div class="pad" style="justify-content:center;align-items:center;text-align:center;z-index:2;padding-bottom:110px;">
+<span class="eyebrow" style="align-self:center;">📖 Section 2 · Read to Learn</span>
+<h1 class="ss-title" style="margin-top:26px;font-size:108px;"><span class="c1">“The Unclimbable</span><br><span class="c1">Wall”</span></h1>
+<div class="sp-card tint-gold" style="margin-top:34px;max-width:1140px;"><p style="font-size:30px;font-weight:700;margin:0;color:var(--sp-ink);line-height:1.45;">🗣️ Read it aloud, taking turns with your tutor. Read the <strong>whole story</strong> from start to finish first — then stop at every <strong style="color:var(--ss-rose);">⚡ Word Challenge</strong>. Detective eyes open! 🔍</p></div>
+</div>
+</div>
+</section>
+
+<section data-label="Article · The Shark’s Fin">
+<div class="slide ss-paper" data-screen-label="Article intro">
+<div class="bits" data-bits="12"></div>
+<div class="pad" style="padding:46px 88px 40px;flex-direction:row;gap:46px;align-items:center;z-index:2;">
+<div style="flex:1.45;">
+<span class="subhead blue">A wall nobody could climb</span>
+<div class="sp-card" style="margin-top:12px;padding:22px 36px;"><p class="reading" style="font-size:28px;">High in the Indian <strong>Himalayas</strong>, on a mountain called <strong>Meru</strong>, there is a wall of rock so difficult that for years people simply called it ‘<strong>unclimbable</strong>.’ It is known as the <strong>Shark’s Fin</strong> — a huge, smooth blade of <strong>granite</strong> that points straight up into the thin, freezing air, looking exactly like the fin of a giant shark slicing out of the mountainside. For more than <strong>thirty years</strong>, many of the world’s very best climbers had travelled from all over the globe to try to reach its top. One by one, every single one of them had failed, and the Shark’s Fin earned a <strong>fearsome reputation</strong> as one of the hardest climbs anywhere on Earth.</p></div>
+<div class="mission" style="margin-top:14px;padding:14px 30px 16px;"><span class="mtag">⚡ Word Challenge</span><p class="mbody" style="font-size:26px;"><strong>un</strong> + <strong>climb</strong> + <strong>able</strong> = ? Can you make another word with <strong>un-…-able</strong>? 🧩</p></div>
+</div>
+<div style="flex:none;width:560px;"><div class="kh-frame up" style="transform:rotate(1.8deg);--h:660px;"><img src="meru/meru-group.jpg" alt="The jagged, snowy Meru peaks poking out above the clouds against a blue sky"></div><span class="photo-cap">🦈 can you spot a fin shape?</span></div>
+</div>
+</div>
+</section>
+
+<section data-label="Map · Where is Meru?">
+<div class="slide ss-lemon" data-screen-label="Map Meru">
+<div class="pad" style="padding:46px 88px 80px;flex-direction:row;gap:56px;align-items:center;z-index:2;">
+<div class="mapbox"><svg id="meruMap" viewBox="0 0 980 860" width="100%" height="100%" role="img" aria-label="Map of India and its neighbours, with a pin showing Mount Meru high in the Himalayas in the north of India"></svg></div>
+<div style="flex:1;">
+<span class="eyebrow">🗺️ Map Detective</span>
+<h2 class="head" style="margin-top:18px;font-size:60px;">Where is Meru?</h2>
+<p class="lead" style="margin-top:16px;font-weight:700;font-size:30px;">Meru is in the <strong>Himalayas</strong> — the highest mountains on Earth — in the far <strong>north of India</strong>.</p>
+<div class="sp-card" style="margin-top:20px;padding:18px 28px;"><p style="font-size:28px;font-weight:700;margin:0;color:var(--sp-ink);line-height:1.6;">📍 Find the <strong>pin</strong> with your finger!<br>🧭 Is Meru near the <strong>top</strong> or the <strong>bottom</strong> of India?<br>🌏 Which <strong>two countries</strong> are close to Meru?</p></div>
+</div>
+</div>
+</div>
+</section>
+
+<section data-label="Photo Detective · The fin">
+<div class="slide ss-aqua" data-screen-label="Photo detective fin">
+<div class="bits" data-bits="10"></div>
+<div class="pad" style="padding:46px 88px 110px;flex-direction:row;gap:50px;align-items:center;z-index:2;">
+<div style="flex:none;width:900px;display:flex;flex-direction:column;gap:16px;">
+<div><div class="kh-frame" style="transform:rotate(-1.2deg);--h:420px;"><img src="meru/meru-west.jpg" alt="The craggy rock and snow walls of Meru, seen from the west"></div><span class="photo-cap">🏔️ Meru from the west</span></div>
+<div><div class="kh-frame" style="transform:rotate(1.2deg);--h:300px;"><img src="meru/shivling-meru.jpg" alt="The pointed peak of Shivling with the snowy Meru peaks beside it, under a deep blue sky"></div><span class="photo-cap">⛰️ Meru’s pointy neighbour, Shivling</span></div>
+</div>
+<div style="flex:1;">
+<span class="eyebrow">🕵️ Photo Detective · 2 minutes</span>
+<h2 class="head" style="margin-top:18px;font-size:58px;">Look closely! 🔍</h2>
+<p class="lead" style="margin-top:16px;font-weight:700;font-size:29px;">These are the real mountains around the <strong>Shark’s Fin</strong>.</p>
+<div class="sp-card" style="margin-top:18px;padding:18px 28px;"><p style="font-size:28px;font-weight:700;margin:0;color:var(--sp-ink);line-height:1.6;">❄️ Where can you see <strong>snow</strong> and where is bare <strong>rock</strong>?<br>🌡️ Would it be <strong>warm</strong> or <strong>freezing</strong> up there?<br>🧗 Which part looks <strong>hardest</strong> to climb?</p></div>
+</div>
+</div>
+</div>
+</section>
+
+<section data-label="Article · Why it was so hard">
+<div class="slide ss-lemon" data-screen-label="Article why hard">
+<div class="pad" style="padding:46px 88px 80px;flex-direction:row;gap:44px;align-items:center;z-index:2;">
+<div style="flex:1.5;">
+<span class="subhead gold">Why it was so hard</span>
+<div class="sp-card" style="margin-top:12px;padding:22px 36px;"><p class="reading" style="font-size:27px;">The Shark’s Fin is a steep, <strong>overhanging</strong> tower about <strong>1,500 feet</strong> tall — taller than the tallest skyscrapers — and it sits more than <strong>20,000 feet</strong> above the sea. What makes it so fierce is that it demands every kind of climbing at once. A climber must battle up walls of solid <strong>ice</strong>, haul themselves over bare <strong>rock</strong>, and inch up smooth stone with almost nothing to hold on to, all while carrying heavy bags of food and gear. Worst of all, the air so high up is so <strong>thin</strong> that every single step leaves you gasping for breath, and the biting cold can freeze your fingers in minutes. For decades, this deadly mix <strong>defeated</strong> even the greatest mountaineers in the world.</p></div>
+<div class="mission" style="margin-top:14px;padding:14px 30px 16px;"><span class="mtag">⚡ Word Challenge</span><p class="mbody" style="font-size:26px;">An <strong>overhanging</strong> wall leans out <strong>towards</strong> you. Show it with your hand! ✋ Why is that harder to climb?</p></div>
+</div>
+<div style="flex:none;width:580px;display:flex;flex-direction:column;gap:18px;">
+<div><div class="kh-frame" style="transform:rotate(1.6deg);--h:320px;"><img src="meru/ice-climb.jpg" alt="A climber with ice axes going up a shining wall of ice, with the sun behind"></div><span class="photo-cap">🧊 climbing solid ice</span></div>
+<div><div class="kh-frame" style="transform:rotate(-1.4deg);--h:300px;"><img src="meru/mixed-climb.jpg" alt="A climber on a steep rock face next to a frozen waterfall of ice"></div><span class="photo-cap">🪨 rock and ice together!</span></div>
+</div>
+</div>
+</div>
+</section>
+
+<section data-label="Photo Detective · Every kind of climbing">
+<div class="slide ss-mint" data-screen-label="Photo detective climbing">
+<div class="bits" data-bits="10"></div>
+<div class="pad" style="padding:46px 88px 100px;flex-direction:row;gap:50px;align-items:center;z-index:2;">
+<div style="flex:none;width:920px;display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.3fr);gap:20px;align-items:center;">
+<div><div class="kh-frame up" style="transform:rotate(-1.4deg);--h:600px;"><img src="meru/elcap-climbers.jpg" alt="A tiny climber in red on a gigantic smooth grey granite wall"></div><span class="photo-cap">🔍 spot the tiny climber!</span></div>
+<div><div class="kh-frame" style="transform:rotate(1.6deg);--h:420px;"><img src="meru/icefall.jpg" alt="A huge jumble of cracked blue ice blocks and snow on a glacier"></div><span class="photo-cap">🧊 a field of cracked ice</span></div>
+</div>
+<div style="flex:1;">
+<span class="eyebrow">🕵️ Photo Detective · Hold on tight!</span>
+<h2 class="head" style="margin-top:18px;font-size:58px;">Smooth as glass! 🪟</h2>
+<p class="lead" style="margin-top:16px;font-weight:700;font-size:29px;">Big granite walls can be <strong>smooth</strong> with almost nothing to grip.</p>
+<div class="sp-card" style="margin-top:18px;padding:18px 28px;"><p style="font-size:28px;font-weight:700;margin:0;color:var(--sp-ink);line-height:1.6;">🧗 How <strong>small</strong> does the climber look?<br>✋ What could you <strong>hold on to</strong>?<br>🧊 Describe the ice with <strong>three adjectives</strong>!</p></div>
+</div>
+</div>
+</div>
+</section>
+
+<section data-label="Article · The team">
+<div class="slide ss-paper" data-screen-label="Article team">
+<div class="bits" data-bits="12"></div>
+<div class="pad" style="padding:46px 88px 40px;flex-direction:row;gap:46px;align-items:center;z-index:2;">
+<div style="flex:1.45;">
+<span class="subhead mars">The team who took it on</span>
+<div class="sp-card" style="margin-top:12px;padding:22px 36px;"><p class="reading" style="font-size:27px;">In <strong>2008</strong>, three American climbers decided to <strong>take on</strong> the challenge together: <strong>Conrad Anker</strong>, <strong>Jimmy Chin</strong> and <strong>Renan Ozturk</strong>. Conrad was the wise, <strong>experienced</strong> leader of the team; Jimmy Chin was not only a brilliant climber but also a world-famous <strong>photographer</strong> and <strong>filmmaker</strong>; and Renan was a gifted young climber and artist. Because Jimmy and Renan could film and take photographs as they climbed, the team was able to capture their whole adventure on camera. They <strong>set off</strong> full of hope. For days they fought their way upward through howling, freezing storms, sleeping in a tiny tent that hung from the sheer side of the cliff, thousands of feet above the ground below.</p></div>
+<div class="mission" style="margin-top:14px;padding:14px 30px 16px;"><span class="mtag">⚡ Word Challenge</span><p class="mbody" style="font-size:26px;">An <strong>experienced</strong> leader has done something <strong>many times</strong>. What are <strong>you</strong> experienced at? 🌟</p></div>
+</div>
+<div style="flex:none;width:540px;display:flex;flex-direction:column;gap:18px;">
+<div><div class="kh-frame" style="transform:rotate(1.6deg);--h:330px;"><img src="meru/anker.jpg" alt="Conrad Anker smiling, touching his cap, with a green climbing rope over his shoulder"></div><span class="photo-cap">🧢 Conrad Anker — the leader</span></div>
+<div><div class="kh-frame" style="transform:rotate(-1.6deg);--h:300px;"><img src="meru/chin-talk.jpg" alt="Jimmy Chin smiling and speaking into a microphone"></div><span class="photo-cap">📷 Jimmy Chin — climber &amp; filmmaker</span></div>
+</div>
+</div>
+</div>
+</section>
+
+<section data-label="Photo Detective · A tent on a cliff">
+<div class="slide ss-pink" data-screen-label="Photo detective portaledge">
+<div class="bits" data-bits="10"></div>
+<div class="pad" style="padding:46px 88px 100px;flex-direction:row;gap:50px;align-items:center;z-index:2;">
+<div style="flex:none;width:900px;display:flex;flex-direction:column;gap:16px;">
+<div><div class="kh-frame" style="transform:rotate(-1.2deg);--h:400px;"><img src="meru/portaledge-lying.jpg" alt="A climber in a blue sleeping bag lying on a small hanging bed fixed to a granite cliff"></div><span class="photo-cap">😴 bedtime on the cliff!</span></div>
+<div><div class="kh-frame" style="transform:rotate(1.2deg);--h:300px;"><img src="meru/portaledge-elcap.jpg" alt="A tiny hanging tent on the side of an enormous sunny rock wall"></div><span class="photo-cap">⛺ a hanging tent, high up</span></div>
+</div>
+<div style="flex:1;">
+<span class="eyebrow">🕵️ Photo Detective · Sleep tight!</span>
+<h2 class="head" style="margin-top:18px;font-size:58px;">A tent on a cliff! ⛺</h2>
+<p class="lead" style="margin-top:16px;font-weight:700;font-size:29px;">Climbers sleep on a <strong>portaledge</strong> — a little bed that hangs from the rock.</p>
+<div class="sp-card" style="margin-top:18px;padding:18px 28px;"><p style="font-size:28px;font-weight:700;margin:0;color:var(--sp-ink);line-height:1.6;">🔗 What is <strong>holding</strong> it up?<br>😮 How would <strong>you</strong> feel sleeping there?<br>🌨️ Now imagine it in a <strong>storm</strong>…</p></div>
+</div>
+</div>
+</div>
+</section>
+
+<section data-label="Article · Disaster struck">
+<div class="slide ss-lemon" data-screen-label="Article disaster">
+<div class="pad" style="padding:46px 88px 80px;flex-direction:row;gap:44px;align-items:center;z-index:2;">
+<div style="flex:1.45;">
+<span class="subhead gold">Then disaster struck</span>
+<div class="sp-card" style="margin-top:12px;padding:22px 36px;"><p class="reading" style="font-size:29px;">A fierce <strong>storm</strong> trapped them on the wall for days, and their food slowly began to <strong>run out</strong>. Painfully, step by step, they pushed on — until they were just <strong>100 metres</strong> from the <strong>summit</strong>. They were so close they could almost reach out and touch it. But they were exhausted, starving and running out of time, and to <strong>carry on</strong> would have been far too dangerous. <strong>Heartbroken</strong>, the three friends made the hardest decision of all: they <strong>turned back</strong>. Their dream was over… for now.</p></div>
+<div class="mission" style="margin-top:16px;padding:14px 30px 16px;"><span class="mtag">⚡ Word Challenge</span><p class="mbody" style="font-size:26px;"><strong>Heart</strong> + <strong>broken</strong> = ? How did the friends feel? Was turning back <strong>brave</strong> or <strong>weak</strong>? 💔</p></div>
+</div>
+<div style="flex:none;width:600px;display:flex;flex-direction:column;gap:18px;">
+<div><div class="kh-frame" style="transform:rotate(1.6deg);--h:320px;"><img src="meru/tent-snow.jpg" alt="A glowing green tent on a snowy mountain at night"></div><span class="photo-cap">🌙 a long, cold night</span></div>
+<div><div class="kh-frame" style="transform:rotate(-1.4deg);--h:300px;"><img src="meru/crevasse.jpg" alt="Climbers roped together crossing steep snow on a glacier"></div><span class="photo-cap">🪢 step by step…</span></div>
+</div>
+</div>
+</div>
+</section>
+
+<section data-label="Article · Never giving up">
+<div class="slide ss-paper" data-screen-label="Article never giving up">
+<div class="bits" data-bits="12"></div>
+<div class="pad" style="padding:46px 88px 40px;flex-direction:row;gap:46px;align-items:center;z-index:2;">
+<div style="flex:1.5;">
+<span class="subhead blue">Never giving up</span>
+<div class="sp-card" style="margin-top:12px;padding:22px 36px;"><p class="reading" style="font-size:28px;">For three long years, the friends could not forget the Shark’s Fin. It <strong>haunted</strong> their dreams. So in <strong>2011</strong>, they went back to the mountain to try all over again. Once more they battled the cold, the thin air, the brutal climbing and their own aching exhaustion — but this time, they refused to be beaten. Metre by metre, they fought their way up the great granite blade… and at last, they <strong>pulled through</strong> and stood together on the very top. They had done what everyone had said was <strong>impossible</strong>, becoming the <strong>first people ever</strong> to climb the Shark’s Fin.</p></div>
+<div class="mission" style="margin-top:14px;padding:14px 30px 16px;"><span class="mtag">⚡ Word Challenge</span><p class="mbody" style="font-size:26px;">If a memory <strong>haunts</strong> your dreams, you <strong>can’t stop</strong> thinking about it. What can’t <strong>you</strong> stop thinking about? 💭</p></div>
+</div>
+<div style="flex:none;width:500px;"><div class="kh-frame up" style="transform:rotate(-1.8deg);--h:660px;"><img src="meru/summit.jpg" alt="A climber in red standing on a snowy summit ridge with mountains and clouds all around"></div><span class="photo-cap">🚩 standing on top!</span></div>
+</div>
+</div>
+</section>
+
+<section data-label="Article · The film">
+<div class="slide ss-mint" data-screen-label="Article film">
+<div class="bits" data-bits="12"></div>
+<div class="pad" style="padding:52px 88px 110px;flex-direction:row;gap:56px;align-items:center;z-index:2;">
+<div style="flex:1.3;">
+<span class="subhead mars">Sharing the adventure</span>
+<div class="sp-card" style="margin-top:12px;padding:22px 36px;"><p class="reading" style="font-size:29px;">Jimmy Chin later turned all the footage they had filmed into an award-winning <strong>documentary</strong> film, so that people everywhere could share in their extraordinary adventure. The story of the Shark’s Fin is now famous around the world — a reminder that with <strong>courage</strong>, <strong>friendship</strong>, and the refusal to give up, even the ‘impossible’ can be achieved.</p></div>
+<div class="mission" style="margin-top:16px;padding:14px 30px 16px;"><span class="mtag">⚡ Word Challenge</span><p class="mbody" style="font-size:26px;">A <strong>documentary</strong> shows <strong>real</strong> life, not made-up stories. What documentary would <strong>you</strong> film? 🎬</p></div>
+</div>
+<div style="flex:none;width:720px;"><div class="kh-frame" style="transform:rotate(1.8deg);--h:540px;"><img src="meru/chin-sundance.jpg" alt="Jimmy Chin and his wife, the filmmaker Chai Vasarhelyi, on stage at a film festival with a red background"></div><span class="photo-cap">🎬 Jimmy at a film festival, showing the film</span></div>
+</div>
+</div>
+</section>
+
+<section data-label="The story so far">
+<div class="slide ss-aqua" data-screen-label="Timeline">
+<div class="bits" data-bits="12"></div>
+<div class="pad" style="padding:52px 88px 110px;justify-content:center;z-index:2;">
+<span class="eyebrow">🐾 Follow the trail · The Story So Far</span>
+<div class="ws-plate" style="margin-top:20px;align-self:flex-start;"><h2>The road to the top 🏔️</h2></div>
+<div class="tl">
+<div class="st"><span class="yr" style="--hue:#FFF5CC;font-size:28px;">30+ yrs</span><div class="cd"><h3>❌ Nobody can</h3><p>the best climbers all <b>fail</b></p></div></div>
+<div class="st"><span class="yr" style="--hue:#8FD3F4;">2008</span><div class="cd" style="--tilt:1deg;"><h3>🌨️ Try 1</h3><p>a <b>storm</b> — they turn back <b>100 m</b> from the top</p></div></div>
+<div class="st"><span class="yr" style="--hue:#FFB8C6;">2011</span><div class="cd"><h3>🚩 Try 2</h3><p>they <b>pull through</b> — first ever!</p></div></div>
+<div class="st"><span class="yr" style="--hue:#C9B6FF;font-size:30px;">The film</span><div class="cd" style="--tilt:1deg;"><h3>🎬 Shared</h3><p>Jimmy’s <b>documentary</b> wins awards</p></div></div>
+</div>
+</div>
+</div>
+</section>
+
+<section data-label="Big numbers">
+<div class="slide ss-paper" data-screen-label="Big numbers">
+<div class="bits" data-bits="12"></div>
+<img class="motif pd-anim-bob" src="stickers/sport/cheering.png" alt="Cheering cat sticker" style="position:absolute;width:220px;right:80px;top:40px;z-index:5;">
+<div class="pad" style="padding:52px 88px 60px;justify-content:center;z-index:2;">
+<span class="eyebrow">🔢 Number Detective</span>
+<div class="ws-plate" style="margin-top:20px;align-self:flex-start;"><h2>The climb in numbers!</h2></div>
+<div class="nums">
+<div class="num-st" style="--hue:#8FD3F4;"><b>1,500</b><span>feet tall — taller than skyscrapers 🏙️</span></div>
+<div class="num-st" style="--hue:#FFF5CC;--tilt:1.2deg;"><b>20,000+</b><span>feet above the sea 🌊</span></div>
+<div class="num-st" style="--hue:#FFB8C6;"><b>100</b><span>metres from the top — then back down 💔</span></div>
+<div class="num-st" style="--hue:#C9B6FF;--tilt:1.2deg;"><b>3</b><span>friends · 3 years until try 2 🤝</span></div>
+</div>
+<div class="mission" style="margin-top:34px;padding:14px 30px 16px;max-width:1500px;"><span class="mtag">⚡ Quick Maths</span><p class="mbody" style="font-size:26px;">A house is about <strong>10 metres</strong> tall. How many houses stacked up would make <strong>100 metres</strong>? 🏠</p></div>
+</div>
+</div>
+</section>
+
+<section data-label="Comprehension">
+<div class="slide ss-lemon" data-screen-label="Comprehension">
+<img class="motif pd-anim-bob" src="stickers/faces/thoughtful.png" alt="Thoughtful cat sticker" style="position:absolute;width:210px;right:60px;bottom:60px;z-index:5;">
+<div class="pad" style="padding:30px 88px 70px;justify-content:flex-start;z-index:2;">
+<div class="sec-row"><span class="sec-badge" style="--hue:var(--sp-mars);color:#fff;">3</span><span class="sec-name">Clue Hunt — Answer in full sentences</span><span class="sec-note">7 questions</span></div>
+<p class="lead" style="margin-top:8px;font-weight:700;font-size:27px;">Read each question twice, then <strong>turn the question around</strong> to start your answer!</p>
+<ul class="itemlist compact tight" style="margin-top:12px;max-width:1460px;gap:9px;">
+<li class="item"><span class="roundel sm" style="--badge:var(--sp-gold);"><span class="num">1</span></span><span class="body">On which <strong>mountain</strong> is the Shark’s Fin found?</span></li>
+<li class="item"><span class="roundel sm" style="--badge:var(--sp-aqua);"><span class="num">2</span></span><span class="body"><strong>Why</strong> was the Shark’s Fin so difficult to climb?</span></li>
+<li class="item"><span class="roundel sm" style="--badge:var(--sp-lav);"><span class="num">3</span></span><span class="body">Besides being a climber, what else is <strong>Jimmy Chin</strong> famous for?</span></li>
+<li class="item"><span class="roundel sm" style="--badge:var(--sp-coral);"><span class="num">4</span></span><span class="body">What happened on the team’s <strong>first attempt</strong> in 2008?</span></li>
+<li class="item"><span class="roundel sm" style="--badge:var(--sp-gold);"><span class="num">5</span></span><span class="body">Where did the team <strong>sleep</strong> during the climb?</span></li>
+<li class="item"><span class="roundel sm" style="--badge:var(--sp-aqua);"><span class="num">6</span></span><span class="body">In which <strong>year</strong> did the team finally reach the summit?</span></li>
+<li class="item"><span class="roundel sm" style="--badge:var(--sp-mars);"><span class="num" style="color:#fff;">7</span></span><span class="body"><strong>Think deeper:</strong> Why do you think the three climbers <strong>went back</strong> to try again after failing?</span></li>
+</ul>
+</div>
+</div>
+</section>
+
+<section data-label="Phrasal verbs divider">
+<div class="slide ss-lav" data-screen-label="Phrasal verbs divider">
+<div class="bits" data-bits="14"></div>
+<div class="pad" style="padding:60px 88px 110px;flex-direction:row;gap:60px;align-items:center;z-index:2;">
+<div style="flex:1;">
+<span class="eyebrow">🧗 Section 4 · Phrasal Verbs</span>
+<h1 class="ss-title" style="margin-top:26px;font-size:108px;"><span class="c1">Take On</span><br><span class="c3">the Challenge!</span></h1>
+<p class="lead" style="margin-top:24px;max-width:980px;font-weight:700;font-size:32px;">Did you spot them in the story? The climbers <strong>took on</strong> a challenge, had to <strong>turn back</strong>, and finally <strong>pulled through</strong>. These are <strong>phrasal verbs</strong>! 🔍</p>
+</div>
+<div style="flex:none;width:640px;"><div class="kh-frame" style="transform:rotate(2deg);--h:520px;"><img src="meru/ice-climb.jpg" alt="A climber going up a wall of ice"></div><span class="photo-cap">🧗 they took it on!</span></div>
+</div>
+</div>
+</section>
+
+<section data-label="What is a phrasal verb?">
+<div class="slide ss-aqua" data-screen-label="What is a phrasal verb">
+<img class="motif pd-anim-bob" src="stickers/detective/magnifying-glass.png" alt="" style="position:absolute;width:200px;right:80px;top:40px;z-index:5;">
+<div class="pad" style="padding:56px 88px 100px;justify-content:center;z-index:2;">
+<span class="eyebrow">🤔 Section 4 · What is a phrasal verb?</span>
+<div class="ws-plate" style="margin-top:20px;align-self:flex-start;"><h2>Verb + little word = new meaning!</h2></div>
+<div class="defn" style="margin-top:30px;max-width:1500px;"><p>A <b>phrasal verb</b> is a <b>verb</b> + a small word (like <b>up</b>, <b>on</b>, <b>out</b>, <b>back</b> or <b>through</b>) that together make a <b>new meaning</b>.</p></div>
+<div class="peq">
+<span class="fb" style="--hue:#FFF5CC;">give</span><span class="op">+</span><span class="fb" style="--hue:#FFB8C6;--tilt:1.5deg;">up</span><span class="op">=</span><span class="fb" style="--hue:#84E6A4;">quit! 🏳️</span>
+</div>
+<p class="lead" style="margin-top:28px;font-weight:700;font-size:30px;">“Give up” doesn’t mean to <strong>give</strong> anything away — the little word changes the <strong>whole meaning</strong>!</p>
+</div>
+</div>
+</section>
+
+<section data-label="More phrasal verbs">
+<div class="slide ss-paper" data-screen-label="More phrasal verbs">
+<div class="bits" data-bits="10"></div>
+<div class="pad" style="padding:48px 88px 50px;justify-content:center;z-index:2;">
+<div class="sec-row"><span class="sec-badge" style="--hue:var(--sp-aqua);">4</span><span class="sec-name">Meet Some More!</span><span class="sec-note">4 phrasal verbs</span></div>
+<div class="pv4">
+<div class="pvc" style="--hue:#FFB8C6;"><span class="em">🐶</span><span class="v">look after</span><p class="m">= <b>take care of</b><br>“I look after my puppy.”</p></div>
+<div class="pvc" style="--hue:#8FD3F4;--tilt:.8deg;"><span class="em">🔍</span><span class="v">find out</span><p class="m">= <b>discover</b><br>“Let’s find out the answer!”</p></div>
+<div class="pvc" style="--hue:#84E6A4;"><span class="em">🎒</span><span class="v">set off</span><p class="m">= <b>begin a journey</b><br>“We set off at dawn.”</p></div>
+<div class="pvc" style="--hue:#C9B6FF;--tilt:.8deg;"><span class="em">🏃</span><span class="v">carry on</span><p class="m">= <b>continue</b><br>“Carry on reading, please.”</p></div>
+</div>
+<div class="mission" style="margin-top:30px;padding:14px 30px 16px;max-width:1500px;"><span class="mtag">⚡ Act it out!</span><p class="mbody" style="font-size:26px;">Your tutor says a phrasal verb — you <strong>act it out</strong> without talking! 🎭</p></div>
+</div>
+</div>
+</section>
+
+<section data-label="A · Match it">
+<div class="slide ss-lemon" data-screen-label="Phrasal A">
+<img class="motif pd-anim-bob" src="stickers/school/writing.png" alt="" style="position:absolute;width:190px;right:70px;top:34px;z-index:5;">
+<div class="pad" style="padding:52px 88px 90px;justify-content:center;z-index:2;">
+<div class="sec-row"><span class="sec-badge" style="--hue:var(--sp-aqua);">4</span><span class="sec-name">Match Them Up! 🧩</span><span class="sec-note">A · 5</span></div>
+<p class="lead" style="margin-top:12px;font-weight:700;font-size:30px;">Match each phrasal verb to its <strong>meaning</strong> — write the <strong>letter</strong> in the box.</p>
+<div class="mt">
+<div class="l"><b>1.</b> give up<span class="bx"></span></div><div class="r" style="--hue:#FFF5CC;"><b>a)</b> discover</div>
+<div class="l"><b>2.</b> set off<span class="bx"></span></div><div class="r" style="--hue:#D7F5E1;"><b>b)</b> continue</div>
+<div class="l"><b>3.</b> find out<span class="bx"></span></div><div class="r" style="--hue:#FFE0E8;"><b>c)</b> quit / stop trying</div>
+<div class="l"><b>4.</b> carry on<span class="bx"></span></div><div class="r" style="--hue:#E8F3FB;"><b>d)</b> take care of</div>
+<div class="l"><b>5.</b> look after<span class="bx"></span></div><div class="r" style="--hue:#ECE4FF;"><b>e)</b> begin a journey</div>
+</div>
+</div>
+</div>
+</section>
+
+<section data-label="B · Word box">
+<div class="slide ss-aqua" data-screen-label="Phrasal B">
+<div class="bits" data-bits="10"></div>
+<div class="pad" style="padding:44px 88px 100px;justify-content:center;z-index:2;">
+<div class="sec-row"><span class="sec-badge" style="--hue:var(--sp-aqua);">4</span><span class="sec-name">Fill the Gaps!</span><span class="sec-note">B · 5</span></div>
+<div class="wbox"><span class="k">📦 Word box:</span><span class="wchip" style="--hue:#FFF5CC;">take on</span><span class="wchip" style="--hue:#FFB8C6;--tilt:1.5deg;">turn back</span><span class="wchip" style="--hue:#84E6A4;">pull through</span><span class="wchip" style="--hue:#8FD3F4;--tilt:1.5deg;">set off</span><span class="wchip" style="--hue:#C9B6FF;">carry on</span></div>
+<div class="rv-one" style="margin-top:20px;"><div class="sp-card" style="padding:26px 40px;max-width:1600px;"><div class="ql lg" style="margin-top:0;gap:26px 20px;">
+<span class="n">1.</span><span>The climbers <span class="bl l"></span> early in the morning, before sunrise. 🌅</span>
+<span class="n">2.</span><span>The storm was too fierce, so they had to <span class="bl l"></span> . 🌨️</span>
+<span class="n">3.</span><span>It was a huge challenge, but the brave team decided to <span class="bl l"></span> it. 💪</span>
+<span class="n">4.</span><span>Even when they were exhausted, they chose to <span class="bl l"></span> climbing. 🧗</span>
+<span class="n">5.</span><span>After days of struggle, the determined team managed to <span class="bl l"></span> . 🚩</span>
+</div></div></div>
+</div>
+</div>
+</section>
+
+<section data-label="C · Your own sentences">
+<div class="slide ss-pink" data-screen-label="Phrasal C">
+<div class="bits" data-bits="10"></div>
+<div class="pad" style="padding:48px 88px 100px;justify-content:center;z-index:2;">
+<div class="sec-row"><span class="sec-badge" style="--hue:var(--sp-aqua);">4</span><span class="sec-name">Over to You! 🎤</span><span class="sec-note">C · 2</span></div>
+<p class="lead" style="margin-top:12px;font-weight:700;font-size:30px;">Use each phrasal verb in a sentence of <strong>your own</strong>.</p>
+<div class="rw" style="max-width:1600px;gap:24px;">
+<div class="sp-card"><p class="s"><span class="n">1.</span>give up →</p><span class="wl" style="margin-top:40px;"></span></div>
+<div class="sp-card"><p class="s"><span class="n">2.</span>find out →</p><span class="wl" style="margin-top:40px;"></span></div>
+</div>
+</div>
+</div>
+</section>
+
+<section data-label="Articles divider">
+<div class="slide ss-mint ws-dark" data-screen-label="Articles divider">
+<img class="ws-bg" src="meru/himalaya-pano.jpg" alt="A long line of snowy Himalayan mountains above green hills">
+<div class="ws-veil"></div>
+<div class="pad" style="justify-content:center;align-items:center;text-align:center;z-index:2;padding-bottom:110px;">
+<span class="eyebrow" style="align-self:center;">🔤 Section 5 · Articles</span>
+<h1 class="ss-title" style="margin-top:26px;font-size:130px;"><span class="c1">A, An</span> <span class="c3">&amp; The</span></h1>
+<p class="lead" style="margin-top:26px;max-width:1200px;font-weight:700;font-size:34px;">These tiny words are called <strong>articles</strong>. They come <strong>before a noun</strong> — but sometimes we leave them out altogether! 🕵️</p>
+</div>
+</div>
+</section>
+
+<section data-label="A or an?">
+<div class="slide ss-paper" data-screen-label="A or an rule">
+<div class="bits" data-bits="10"></div>
+<div class="pad" style="padding:48px 88px 50px;justify-content:center;z-index:2;">
+<div class="sec-row"><span class="sec-badge" style="--hue:var(--sp-coral);">5</span><span class="sec-name">A or An? Listen to the sound!</span><span class="sec-note">any one, not a special one</span></div>
+<div class="ab2">
+<div class="abc" style="--hue:#8FD3F4;"><span class="big">a</span><p class="rule">before a <strong>consonant sound</strong> 🗣️</p><div class="ex"><span><b>a</b> mountain 🏔️</span><span><b>a</b> rope 🪢</span><span><b>a</b> tent ⛺</span></div></div>
+<div class="abc" style="--hue:#FFB8C6;--tilt:1deg;"><span class="big">an</span><p class="rule">before a <strong>vowel sound</strong> (a, e, i, o, u) 🗣️</p><div class="ex"><span><b>an</b> avalanche ❄️</span><span><b>an</b> ice axe ⛏️</span><span><b>an</b> egg 🥚</span></div></div>
+</div>
+<div class="mission" style="margin-top:30px;padding:14px 30px 16px;max-width:1600px;"><span class="mtag">🕵️ Sneaky one!</span><p class="mbody" style="font-size:27px;">We say <strong>an hour</strong> ⏰ — because the <strong>h</strong> is silent, so the word <strong>sounds</strong> like it starts with a vowel: “<strong>ow</strong>-er”!</p></div>
+</div>
+</div>
+</section>
+
+<section data-label="The &amp; no article">
+<div class="slide ss-lemon" data-screen-label="The and none">
+<div class="pad" style="padding:48px 88px 80px;justify-content:center;z-index:2;">
+<div class="sec-row"><span class="sec-badge" style="--hue:var(--sp-coral);">5</span><span class="sec-name">The, and When to Leave It Out</span><span class="sec-note">3 rules</span></div>
+<div class="pc3">
+<div class="pc" style="--hue:#84E6A4;"><span class="nm">🎯 the</span><p class="fm">one special thing</p><p class="ds">we <strong>both know</strong> which one.</p><p class="ex">“They climbed <b>the</b> Shark’s Fin.”</p></div>
+<div class="pc" style="--hue:#8FD3F4;--tilt:.8deg;"><span class="nm">👀 a ➜ the</span><p class="fm">first time, then after</p><p class="ds"><strong>a</strong> the first time, <strong>the</strong> once we know it.</p><p class="ex">“I saw <b>a</b> climber. <b>The</b> climber waved.”</p></div>
+<div class="pc" style="--hue:#C9B6FF;"><span class="nm">🚫 no article</span><p class="fm">leave it out!</p><p class="ds">before most <strong>names</strong>, and plurals or snow-type nouns <strong>in general</strong>.</p><p class="ex">“<b>Jimmy</b> flew to <b>India</b>. <b>Snow</b> is cold.”</p></div>
+</div>
+</div>
+</div>
+</section>
+
+<section data-label="A · a or an">
+<div class="slide ss-aqua" data-screen-label="Articles A">
+<div class="bits" data-bits="10"></div>
+<img class="motif pd-anim-bob" src="stickers/school/writing.png" alt="" style="position:absolute;width:180px;right:70px;top:34px;z-index:5;">
+<div class="pad" style="padding:52px 88px 100px;justify-content:center;z-index:2;">
+<div class="sec-row"><span class="sec-badge" style="--hue:var(--sp-coral);">5</span><span class="sec-name">A or An? Fill the Box!</span><span class="sec-note">A · 6</span></div>
+<p class="lead" style="margin-top:12px;font-weight:700;font-size:30px;">Say each word <strong>out loud</strong> first — then write <strong>a</strong> or <strong>an</strong>. 🗣️</p>
+<div class="an6">
+<div class="ant"><span class="bx"></span><span class="w">mountain</span><span class="e">🏔️</span></div>
+<div class="ant" style="--tilt:1deg;"><span class="bx"></span><span class="w">avalanche</span><span class="e">❄️</span></div>
+<div class="ant"><span class="bx"></span><span class="w">rope</span><span class="e">🪢</span></div>
+<div class="ant" style="--tilt:1deg;"><span class="bx"></span><span class="w">hour</span><span class="e">⏰</span></div>
+<div class="ant"><span class="bx"></span><span class="w">ice axe</span><span class="e">⛏️</span></div>
+<div class="ant" style="--tilt:1deg;"><span class="bx"></span><span class="w">summit</span><span class="e">🚩</span></div>
+</div>
+</div>
+</div>
+</section>
+
+<section data-label="B · a, an or the">
+<div class="slide ss-paper" data-screen-label="Articles B">
+<div class="bits" data-bits="10"></div>
+<div class="pad" style="padding:48px 88px 60px;justify-content:center;z-index:2;">
+<div class="sec-row"><span class="sec-badge" style="--hue:var(--sp-coral);">5</span><span class="sec-name">A, An or The?</span><span class="sec-note">B · 3</span></div>
+<p class="lead" style="margin-top:12px;font-weight:700;font-size:30px;">Is it <strong>any one</strong> (a / an) or a <strong>special one</strong> we know (the)? 🔍</p>
+<div class="rv-one" style="margin-top:24px;"><div class="sp-card" style="padding:30px 40px;max-width:1600px;"><div class="ql lg" style="margin-top:0;gap:34px 20px;">
+<span class="n">1.</span><span>They climbed <span class="bl"></span> huge wall of rock. <span class="bl"></span> wall was almost vertical. 🧗</span>
+<span class="n">2.</span><span>Jimmy took <span class="bl"></span> photograph at <span class="bl"></span> top of the mountain. 📷</span>
+<span class="n">3.</span><span>Would you like <span class="bl"></span> apple from <span class="bl"></span> bowl on the table? 🍎</span>
+</div></div></div>
+</div>
+</div>
+</section>
+
+<section data-label="C · Article or none?">
+<div class="slide ss-pink" data-screen-label="Articles C">
+<div class="bits" data-bits="10"></div>
+<div class="pad" style="padding:44px 88px 100px;justify-content:center;z-index:2;">
+<div class="sec-row"><span class="sec-badge" style="--hue:var(--sp-coral);">5</span><span class="sec-name">Article or None? 🚫</span><span class="sec-note">C · 4</span></div>
+<p class="lead" style="margin-top:12px;font-weight:700;font-size:30px;">Add an article if it’s needed — or write <strong>none</strong>.</p>
+<div class="rv-one" style="margin-top:18px;"><div class="sp-card" style="padding:24px 40px;max-width:1600px;"><div class="ql lg" style="margin-top:0;gap:24px 20px;">
+<span class="n">1.</span><span><span class="bl"></span> mountains are very dangerous in winter. 🏔️</span>
+<span class="n">2.</span><span>We flew to <span class="bl"></span> India to begin the climb. ✈️</span>
+<span class="n">3.</span><span>She is <span class="bl"></span> incredible photographer. 📷</span>
+<span class="n">4.</span><span><span class="bl"></span> snow fell silently all through the night. ❄️</span>
+</div></div></div>
+<div class="sp-card tint-gold" style="margin-top:20px;max-width:1600px;padding:14px 30px;"><p style="font-size:27px;font-weight:700;margin:0;color:var(--sp-ink);line-height:1.45;">★ <strong>Stretch · fast finishers:</strong> write <strong>three sentences</strong> about a mountain adventure. Use <strong>a</strong> once, <strong>an</strong> once and <strong>the</strong> once — then <strong>underline</strong> each article! ✏️</p></div>
+</div>
+</div>
+</section>
+
+<section data-label="Homework &amp; Exit Ticket">
+<div class="slide ss-aqua" data-screen-label="Homework">
+<img class="motif pd-anim-bob" src="stickers/school/backpack.png" alt="Cat with a backpack sticker" style="position:absolute;width:210px;right:70px;top:30px;z-index:5;">
+<div class="pad" style="padding:46px 88px 90px;justify-content:center;z-index:2;">
+<span class="eyebrow">🎒 Section 6 · Homework Missions</span>
+<ul class="itemlist compact" style="margin-top:20px;max-width:1420px;gap:16px;">
+<li class="item"><span class="roundel sm" style="--badge:var(--sp-gold);"><span class="num">1</span></span><span class="body">Find <strong>five phrasal verbs</strong> (in a book, or from today) and write what each one means. 🔍</span></li>
+<li class="item"><span class="roundel sm" style="--badge:var(--sp-aqua);"><span class="num">2</span></span><span class="body">Write <strong>four sentences</strong> about an adventure, each using a <strong>different</strong> phrasal verb. 🧗</span></li>
+<li class="item"><span class="roundel sm" style="--badge:var(--sp-coral);"><span class="num">3</span></span><span class="body">Write <strong>three sentences</strong> using <strong>a</strong>, <strong>an</strong> and <strong>the</strong> — and <strong>one</strong> that correctly uses <strong>no article</strong> at all. 🔤</span></li>
+</ul>
+<div style="display:flex;gap:22px;margin-top:26px;max-width:1420px;">
+<div class="mission" style="flex:1.2;padding:16px 30px 18px;"><span class="mtag">🎟️ Exit ticket · last 3 minutes</span><p class="mbody" style="font-size:26px;">Tell me without looking: what is a <strong>phrasal verb</strong>? And do we say ‘<strong>a hour</strong>’ or ‘<strong>an hour</strong>’ — and <strong>why</strong>? 🤔</p></div>
+<div class="sp-card tint-aqua" style="flex:1;padding:16px 28px;"><p style="font-family:var(--pd-font-display);font-size:26px;margin:0 0 6px;color:var(--sp-ink);">Coming next time</p><p style="font-size:25px;font-weight:700;margin:0;color:var(--sp-ink);line-height:1.4;"><strong>Plurals</strong> — the rules for ‘more than one’, including the tricky ones (mouse → mice!). 🐭🐭</p></div>
+</div>
+</div>
+</div>
+</section>
+
+<section data-label="Case Closed">
+<div class="slide ss-mint" data-screen-label="Closing">
+<div class="bits" data-bits="14" data-left="1"></div>
+<div class="pad" style="padding:60px 88px 110px;flex-direction:row;gap:60px;align-items:center;z-index:2;">
+<div style="flex:1;">
+<span class="eyebrow">✨ Case Closed · Lesson 42</span>
+<h1 class="ss-title" style="margin-top:26px;font-size:112px;"><span class="c1">You Reached</span><br><span class="c3">the Top!</span></h1>
+<p class="lead" style="margin-top:22px;max-width:1000px;font-weight:700;font-size:32px;">You climbed the <strong>Shark’s Fin</strong>, slept on a <strong>cliff</strong>, cracked <strong>phrasal verbs</strong> and mastered <strong>a, an &amp; the</strong>. Never give up! ⭐🐾</p>
+<p class="lead" style="margin-top:18px;font-weight:800;font-size:32px;">🎮 Now… time for some games! ➜</p>
+</div>
+<div style="flex:none;width:560px;"><div class="kh-frame up" style="transform:rotate(-2deg);--h:620px;"><img src="meru/summit.jpg" alt="A climber standing on a snowy summit ridge"></div><span class="photo-cap">🚩 summit reached!</span></div>
+</div>
+</div>
+</section>
+
+<section data-label="Games Corner">
+<div class="slide ss-lemon" data-screen-label="Games Corner">
+<div class="bits" data-bits="12"></div>
+<img class="motif pd-anim-bob" src="stickers/faces/wow.png" alt="" style="position:absolute;width:230px;right:70px;top:36px;z-index:5;">
+<div class="pad" style="padding:52px 88px 70px 96px;justify-content:center;z-index:2;">
+<span class="eyebrow">🎮 Games Corner · Climb In!</span>
+<h2 class="head" style="margin-top:22px;font-size:72px;">Pick a game — you’ve earned it!</h2>
+<div class="gm8"><a class="pd-btn pd-btn--pink" href="summit-connect-4.html" target="_blank" rel="noopener">🔴 Summit Connect 4</a><a class="pd-btn pd-btn--aqua" href="summit-word-search.html" target="_blank" rel="noopener">🔍 Summit Word Search</a><a class="pd-btn pd-btn--yellow" href="feed-the-mountain-cat.html" target="_blank" rel="noopener">🍪 Feed the Mountain Cat</a><a class="pd-btn pd-btn--mint" href="snowflake-catch.html" target="_blank" rel="noopener">❄️ Snowflake Catch</a><a class="pd-btn pd-btn--pink" href="whack-a-snowball.html" target="_blank" rel="noopener">🔨 Whack-a-Snowball</a><a class="pd-btn pd-btn--aqua" href="climb-the-fin.html" target="_blank" rel="noopener">🧗 Climb the Fin</a><a class="pd-btn pd-btn--yellow" href="snowy-shootout.html" target="_blank" rel="noopener">⚽ Snowy Shootout</a><a class="pd-btn pd-btn--mint" href="memory-match.html" target="_blank" rel="noopener">🃏 Memory Match</a></div>
+</div>
+</div>
+</section>
+
+</deck-stage>
+<script src="slides/deck-stage.js"></script>
+<script>
+(function(){
+function rnd(a,b){return a+Math.random()*(b-a);}
+var SH=['flake','mtn','star','snow','flag','flake','snow'],DARK=['#fff','#BFE3F7','#FFD86B','#FFB8C6','#C9B6FF'],LIGHT=['#2D78A8','#4B3C8A','#FF931E','#7FA8D8','#22406E'];
+document.querySelectorAll('.bits[data-bits]').forEach(function(box){
+var slide=box.closest('.slide'),n=parseInt(box.dataset.bits||'12',10),leftOnly=box.dataset.left;
+var cols=(slide.classList.contains('ss-mint')||slide.classList.contains('ss-lav')||slide.classList.contains('ss-aqua'))?DARK:LIGHT,made=0,tries=0;
+n=Math.min(n,leftOnly?12:9);while(made<n&&tries<1500){tries++;var x=rnd(-1,97),y=rnd(-2,80);
+if(y>80)continue;if(leftOnly){if(x>46||y>6)continue;}else if(y>6&&x>2.2&&x<96.6)continue;
+var el=document.createElement('i');
+var sh=SH[made%SH.length];el.className='oc '+sh;el.style.cssText='font-size:'+rnd(24,40).toFixed(0)+'px;--c:'+cols[made%cols.length]+';--r:'+(sh==='flake'||sh==='star'?rnd(-40,40):rnd(-14,14)).toFixed(0)+'deg;';
+el.style.left=x.toFixed(2)+'%';el.style.top=y.toFixed(2)+'%';el.style.animationDelay='-'+rnd(0,3).toFixed(1)+'s';
+box.appendChild(el);made++;}
+});
+})();
+</script>
+<script>
+(function(){
+var svg=d3.select('#meruMap');if(svg.empty())return;var W=980,H=860;
+fetch('https://cdn.jsdelivr.net/npm/world-atlas@2.0.2/countries-110m.json').then(function(r){return r.json();}).then(function(topo){
+var land=topojson.feature(topo,topo.objects.countries);
+var proj=d3.geoMercator().fitExtent([[20,20],[W-20,H-20]],{type:'MultiPoint',coordinates:[[67,6],[98,37]]});
+var path=d3.geoPath(proj);
+svg.append('rect').attr('width',W).attr('height',H).attr('fill','#BFE3F7');
+svg.append('g').selectAll('path').data(land.features).join('path').attr('d',path).attr('fill',function(d){return d.id==='356'?'#FFF1C9':'#E9DDB8';}).attr('stroke','#0C5A48').attr('stroke-width',4).attr('stroke-linejoin','round');
+var hp=[[74,35],[77,33.2],[79,31],[81.5,29.6],[84,28.6],[88,27.8],[92,28]];
+svg.append('path').attr('d',d3.line().curve(d3.curveCatmullRom)(hp.map(function(p){return proj(p);}))).attr('fill','none').attr('stroke','#fff').attr('stroke-width',34).attr('stroke-linecap','round').attr('opacity',.75);
+hp.forEach(function(p,i){if(i%1)return;var q=proj(p);svg.append('path').attr('d','M'+(q[0]-16)+','+(q[1]+10)+'L'+q[0]+','+(q[1]-14)+'L'+(q[0]+16)+','+(q[1]+10)+'Z').attr('fill','#7FA8D8').attr('stroke','#0C5A48').attr('stroke-width',3).attr('stroke-linejoin','round');});
+var m=proj([79.03,30.87]);
+svg.append('circle').attr('cx',m[0]).attr('cy',m[1]).attr('r',20).attr('fill','#FF7BAC').attr('stroke','#0C5A48').attr('stroke-width',6);
+var g=svg.append('g').attr('transform','translate('+(m[0]+34)+','+(m[1]+50)+')');
+g.append('rect').attr('x',0).attr('y',-32).attr('width',190).attr('height',62).attr('rx',31).attr('fill','#FFD86B').attr('stroke','#0C5A48').attr('stroke-width',5);
+g.append('text').attr('x',95).attr('y',11).attr('text-anchor','middle').attr('font-family','Bowlby One SC').attr('font-size',30).attr('fill','#0C5A48').text('MERU 🏔️');
+function lab(ll,t,o){var p=proj(ll);svg.append('text').attr('x',p[0]).attr('y',p[1]).attr('text-anchor','middle').attr('font-family',o.f||'Bowlby One SC').attr('font-size',o.s||44).attr('font-style',o.i?'italic':'normal').attr('font-weight',o.w||400).attr('fill',o.c||'#0C5A48').attr('stroke',o.k?'#fff':null).attr('stroke-width',o.k?8:null).attr('paint-order','stroke').attr('transform',o.r?'rotate('+o.r+' '+p[0]+' '+p[1]+')':null).text(t);}
+lab([78.5,21],'INDIA',{s:72});
+lab([84.2,27.6],'NEPAL',{s:26,k:1});
+lab([88,34.5],'CHINA',{s:46});
+lab([87.6,30.6],'Himalayas',{f:'Quicksand',s:32,i:1,w:700,c:'#22406E',k:1,r:-12});
+lab([86,15.5],'Bay of Bengal',{f:'Quicksand',s:28,i:1,w:700,c:'#1E5B8C'});
+lab([66.5,14],'Arabian Sea',{f:'Quicksand',s:28,i:1,w:700,c:'#1E5B8C'});
+var n=svg.append('g').attr('transform','translate('+(W-90)+','+(H-110)+')');
+n.append('circle').attr('r',46).attr('fill','#fff').attr('stroke','#0C5A48').attr('stroke-width',5);
+n.append('path').attr('d','M0 -34L14 6H-14Z').attr('fill','#FF7BAC').attr('stroke','#0C5A48').attr('stroke-width',3);
+n.append('text').attr('y',38).attr('text-anchor','middle').attr('font-family','Bowlby One SC').attr('font-size',26).attr('fill','#0C5A48').text('N');
+svg.append('text').attr('x',W-14).attr('y',H-14).attr('text-anchor','end').attr('font-family','Quicksand').attr('font-size',14).attr('fill','#0C5A48').attr('opacity',.7).text('Map data: Natural Earth');
+});
+})();
+</script>
+<button id="presentBtn" type="button" aria-label="Present fullscreen" style="position:fixed;top:18px;right:18px;z-index:2147483647;font-family:'Bowlby One SC','Baloo 2',sans-serif;font-size:19px;color:#0C5A48;background:#FFD86B;border:4px solid #0C5A48;border-radius:999px;padding:11px 24px;box-shadow:-3px 6px 0 #0C5A48;cursor:pointer;">⛶&nbsp; Present</button>
+<script>
+(function(){
+var deck=document.querySelector('deck-stage');var btn=document.getElementById('presentBtn');
+function inFs(){return document.fullscreenElement||document.webkitFullscreenElement;}
+btn.addEventListener('click',function(){if(!inFs()){var el=document.documentElement;var req=el.requestFullscreen||el.webkitRequestFullscreen;if(req){req.call(el);}else{deck.setAttribute('no-rail','');btn.style.display='none';}}else{(document.exitFullscreen||document.webkitExitFullscreen).call(document);}});
+function sync(){if(inFs()){deck.setAttribute('no-rail','');btn.style.display='none';}else{deck.removeAttribute('no-rail');btn.style.display='';}}
+document.addEventListener('fullscreenchange',sync);document.addEventListener('webkitfullscreenchange',sync);
+})();
+</script>
+</body>
+</html>
